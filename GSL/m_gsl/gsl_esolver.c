@@ -6,7 +6,7 @@
 
 
 
- int wczyt(double *a,double *b,matrix_t *m){
+ int gsl_matrix_data(double *a,double *b,matrix_t *m){
 	int i;
 	int j=0; 
 	int r=0;
@@ -33,7 +33,7 @@ int gsl_eq_solver(matrix_t * m){
   int j;
   double a_data[m->rn * m->rn];
   double b_data[1*m->cn];
-  wczyt(a_data,b_data,m);
+  gsl_matrix_data(a_data,b_data,m);
  
   
   gsl_matrix_view k 

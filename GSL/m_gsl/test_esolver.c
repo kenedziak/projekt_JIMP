@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "gsl_esover.h"
+#include "gsl_esolver.h"
 #include "matrix.h"
 int
 main (void)

@@ -1,5 +1,5 @@
 #include "makespl.h"
-#include "m_gsl/gsl_esover.h"
+#include "./m_gsl/matrix.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <float.h>
